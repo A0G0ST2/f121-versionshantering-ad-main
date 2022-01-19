@@ -1,0 +1,182 @@
+body {
+    padding: 50px;
+    
+}
+
+#total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+
+
+img {
+    width: 100px;
+}
+
+.xbox {
+    width: 500px;
+}
+
+p {
+    padding-right: 400px;
+    padding-left: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+button{
+    gap: 5px;
+    margin-bottom:20px ;
+    background-color: black;
+    color: white;
+    height: 40px;
+    
+    
+}
+
+#buttonnew {
+    position: absolute;
+    z-index: 99999;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+#total:hover {
+    box-shadow: inset 75px 0 rgba(255, 0, 0, 0.25), inset 0 75px rgba(255, 255, 0, 0.25), inset -25px -25px rgba(0, 125, 255, 0.5);
+  border-color:rgba(255,100,75,0.5);
+
+}
+
+:root {
+    --dark: #1e293a;
+    --green: #00fcbb;
+}
+#page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card {
+    display: flex;
+    width: 38rem;
+    height: 25rem;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+.half {
+    width: 50%;
+}
+.img-container img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+  
+}
+.half-right {
+    background-color: var(--dark);
+    padding: 1.5rem 1rem 4rem 1rem;
+    position: relative;
+}
+
+
+.half-right .name {
+    font-size: 1.7rem;
+    color: white;
+
+
+}
+.half-right h3 {
+    color: var(--green);
+    margin-top: 1rem;
+}
+
+.half-right p {
+    color: #487098;
+    font-size: 0.65rem;
+    margin-top: 0.4rem;
+}
+.triangle {
+    position: absolute;
+    bottom: -0.1rem;
+    width: 100%;
+    height: 7rem;
+    background: linear-gradient(#fe8361, #f83487);
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+.triangle ul {
+    width: 35%;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.triangle a {
+    width: 1.2rem;
+    height: 1.2rem;
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: #f83487;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.2rem;
+}
+.triangle span {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.55rem;
+    color: white;
+}
+.fa-plus {
+    position: absolute;
+    bottom: 5.2rem;
+    left: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: linear-gradient(#fd1999, #a60fe7);
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.member{
+    padding: 0;
+}
+
+
+.omoss {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+    
+
+   
+}
+  .omoss:hover {
+      background-color: orange;
+      
+  }
+
+
+.membersofspidey {
+    padding: 200px;
+}

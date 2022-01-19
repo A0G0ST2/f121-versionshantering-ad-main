@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="start.html"><button>Hem</button></a>
+    <a href="om.html"><button>Om</button></a>
+    <a href="terminology.html"><button>Terminology</button></a>
+    <a href="mark.html"><button>Markdown</button></a>
+    <a href="teamarbete.html"><button>Lärdomar</button></a>
+    <a href="sponsors.html"><button>Sponsorer</button></a>
+
+
+    
+    <div id="total">
+        <h1>Terminology</h1>
+
+        <h2>Branch/Branching</h2>
+        <p>Vi kommer att använda "branching" eller förgreningar i vårt repro för att undvika att ändra i projektets
+            “huvudgren”. Detta är extra viktigt då man är flera personer som samarbetar i samma repro då man enklare kan
+            jobba utan att skriva över varandras filer/kod
+        </p>
+        <h2>Git clone</h2>
+        <p>Git clone är ett Git kommandoradsverktyg som används för att rikta in sig på ett befintligt arkiv och skapa
+            en klon, eller kopia av målförvaret. ... Klona ett lokalt eller fjärrlager. Kloning av ett rent</p>
+
+        <h2>Repository</h2>
+
+        <p>Kallas ofta förkortat för "repo" och är oftast ett projekt. Vi kan likna ett repositorie med en mapp/katalog
+            innehållandes filer och undermappar som kan versionshanteras. Du skapar oftast ett repositorie per kurs
+            eller ett repositorie per applikation.</p>
+
+        <h2>Merge</h2>
+        <p>Om ägaren av repositoriet tycker att dina ändringar är bra kan hon/han välja att baka in dessa i orginalkoden
+            d.v.s. göra en "merge", en sammanslagning.</p>
+
+        <h2>Pull request</h2>
+        <p>Detta innebär att du har forkat ett projekt/repositorie och gjort förändringar i detta som du vill dela med
+            dig av till orginalprojketet. Du kan då föreslå detta för repositorie-ägaren genom att göra en "pull
+            request" som ägaren får godkänna.</p>
+
+        <h2>Push</h2>
+
+        <p>Att "push:a" innebär att man tar de "commit:ade" filerna och skickar/pushar upp på en central server. I Vårt
+            fall kommer detta oftast vara GitHubs server.
+        </p>
+
+        <h2>Commit</h2>
+        <p>Att "commit:a" sina ändringar talar om att man nu har uppdaterat sina filer och sparar dessa i en ny
+            version, en commit. Detta görs i lokalt på din dator.</p>
+
+        <h2>HEAD</h2>
+        <p>HEAD är representation för den för närvarande checkade ut grenen av den senaste åtagandekoden.
+        </p>
+
+        <h2>Git revert</h2>
+        <p>Git revert-kommandot används för att ångra ändringar i ett arkivs commit-historik.
+        </p>
+
+        <h2>Git reset</h2>
+        <p> Git reset är ett kraftfullt kommando som används för att ångra lokala ändringar av tillståndet för en
+            Git-repo.
+        </p>
+
+        <h2>Staging</h2>
+        <p>Staging i git låter dig fortsätta att göra ändringar i arbetskatalogen, och när du bestämmer dig för att du
+            vill interagera med versionskontroll låter det dig spela in ändringar i små commits
+        </p>
+
+        <h2>Working Directory</h2>
+        <p>Working Directory, Git-dokumentationen: Arbetskatalogen är en enda utcheckning av en version av projektet.
+            Detta betyder i huvudsak att om du checkar ut en branch (t.ex. master) och sitter på en viss commit (t.ex.
+            HEAD), är din arbetskatalog "paraply"-termen för alla dina filer och mappar.</p>
+
+        <h2>What is a branch? What is a fork?</h2>
+
+        <p>Branching and forking provide two ways of diverging from the main code line. Both Mercurial and Git have the
+            concept of branches at the local level. A repository code branch, like a branch of a tree, remains part of
+            the
+            original repository. The code that is branched (main trunk) and the branch know and rely on each other. Like
+            a
+            tree trunk's branch, a code branch knows about the trunk (original code base) it originated from.
+        </p>
+
+        <p>Fork is another way of saying clone or copy. The term fork (in programming) derives from an Unix system call
+            that
+            creates a copy of an existing process. So, unlike a branch, a fork is independent from the original
+            repository.
+            If the original repository is deleted, the fork remains. If you fork a repository, you get that repository
+            and
+            all of its branches.</p>
+
+        <p>As DVCS hosting evolved, the term fork evolved. The Bitbucket software adds management to forks; forking a
+            repository in Bitbucket has functionality you normally wouldn't associate with a simple DVCS clone. For
+            example,
+            on Bitbucket, you can always see which repository the fork came from. This isn't the case with a DVCS clone
+            on
+            your local system.</p>
+    </div>
+
+</body>
+
+</html>
